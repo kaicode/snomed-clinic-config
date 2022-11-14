@@ -22,7 +22,7 @@
                 "title": "Vitals Flow Sheet",
                 "dashboardConfig": {
                     "numberOfVisits": "5",
-                    "groupBy": "obsTime",
+                    "groupBy": "obstime",
                     "obsConcepts": [
                         "Pulse",
                         "Arterial blood oxygen saturation (pulse oximeter)",
@@ -35,7 +35,7 @@
                 },
                 "expandedViewConfig": {
                     "numberOfVisits": "10",
-                    "groupBy": "obsTime",
+                    "groupBy": "obstime",
                     "obsConcepts": [
                         "Pulse",
                         "Arterial blood oxygen saturation (pulse oximeter)",
