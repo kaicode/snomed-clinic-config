@@ -1,27 +1,35 @@
 {
-    "auditLog":{
+    "auditLog": {
         "id": "bahmni.admin.auditLog",
         "extensionPointId": "org.bahmni.admin.dashboard",
         "type": "link",
-        "extensionParams": {
-        },
+        "extensionParams": {},
         "label": "Audit Log",
         "url": "#/auditLog",
         "icon": "fa-eye",
         "order": 1,
         "requiredPrivilege": "app:admin"
     },
-    "orderSet":{
+    "orderSet": {
         "id": "bahmni.admin.orderSet",
         "extensionPointId": "org.bahmni.admin.dashboard",
         "type": "link",
-        "extensionParams": {
-        },
+        "extensionParams": {},
         "label": "Order Set",
         "url": "#/ordersetdashboard",
         "icon": "fa-upload",
         "order": 1,
         "requiredPrivilege": "app:admin"
+    },
+    "csvUpload": {
+        "id": "bahmni.admin.csv",
+        "extensionPointId": "org.bahmni.admin.dashboard",
+        "type": "link",
+        "extensionParams": {},
+        "label": "CSV Upload",
+        "url": "#/csv",
+        "icon": "fa-upload",
+        "order": 1,
+        "requiredPrivilege": "app:admin"
     }
-    
 }
