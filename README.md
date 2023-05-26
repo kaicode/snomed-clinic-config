@@ -4,6 +4,9 @@
 
 This repo represents configuration for BahmniLite (more applicable for clinics).
 
+This repo also includes additional configurations required for plugin modules  [FHIR CDSS module](https://github.com/Bahmni/openmrs-module-cdss) and [FHIR Terminology Service Module](https://github.com/Bahmni/openmrs-module-snomed) that are bundled optionally with BahmniLite. More details can be found [here](https://bahmni.atlassian.net/wiki/spaces/BAH/pages/3132686337/SNOMED+FHIR+Terminology+Server+Integration+with+Bahmni)
+
+
 ## References to openmrs-module-initializer for Bahmni
 
 https://github.com/CRUDEM/openmrs-config-hsc
