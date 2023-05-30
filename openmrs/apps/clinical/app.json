@@ -11,6 +11,10 @@
         "allowAdhocTeleConsultation": true,
         "defaultVisitType":"OPD",
         "teleConsultationDomain": "meet.jit.si",
+        "terminologyService": {
+            "source": "SNOMED",
+            "limit": 30
+        },
         "conceptSetUI": {
             "Chief Complaint Data": {
                 "autocomplete":true,
@@ -24,6 +28,16 @@
             "personAttributes": [
                 "phoneNumber"
             ]
-        }
+        },
+        "cdssDismissalOptionsToDisplay": [
+            "FALSE_POSITIVE_ALERT",
+            "NOT_APPLICABLE_TO_THE_PATIENT",
+            "ALREADY_RESOLVED_BY_MEDICATION_ADJUSTMENT",
+            "ALREADY_MANAGED_BY_OTHER_MEANS",
+            "PATIENT_DECLINED_RECOMMENDED_ACTION",
+            "CLINICIAN_JUDGMENT_OVERRODE_RECOMMENDATION",
+            "ALERT_TRIGGERED_IN_ERROR",
+            "INSUFFICIENT_INFORMATION_TO_ACT_ON_ALERT"
+        ]
     }
 }
