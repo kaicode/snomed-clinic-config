@@ -12,7 +12,7 @@
         "defaultVisitType":"OPD",
         "teleConsultationDomain": "meet.jit.si",
         "terminologyService": {
-            "source": "SNOMED",
+            "source": "SNOMED-CT",
             "limit": 30
         },
         "conceptSetUI": {
