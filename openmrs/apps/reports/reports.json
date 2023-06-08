@@ -83,6 +83,22 @@
             "visitTypesToFilter": []
         }
     },
+    "chiefComplaintReport": {
+        "name": "SNOMED Chief Complaint Report",
+        "type": "obsCount",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "ageGroupName": "All Ages",
+            "conceptNames": [
+                "SNOMED Chief Complaint (coded)"
+            ],
+            "countOnlyClosedVisits": "false",
+            "visitTypes": [
+                "IPD",
+                "OPD"
+            ]
+        }
+    },
     "diagnosisCountMalaria": {
         "name": "SNOMED Diagnosis Count Report for Malaria",
         "type": "fhirTSLookupDiagnosis",
