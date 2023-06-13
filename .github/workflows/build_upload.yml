@@ -5,7 +5,7 @@ on:
       - snomed-master
       - 'snomed-release-*'
     tags:
-      - '[0-9]+.[0-9]+.[0-9]+'
+      - 'snomed-[0-9]+.[0-9]+.[0-9]+'
     paths-ignore:
       - "**.md"
   workflow_dispatch:

@@ -1,0 +1,3 @@
+Uuid,Void/Retire,Mappings|SAME-AS|SNOMED,Fully specified name:en,Short name:en,Description:en,Data class,Data type,Members,_version:1,_order:300
+,,,Procedure Orders,Procedures,,ConvSet,N/A,,,
+,,,All Orderables,,,ConvSet,N/A,Lab Samples;Radiology Orders;Procedure Orders,,

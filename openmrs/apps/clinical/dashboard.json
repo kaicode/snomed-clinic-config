@@ -112,7 +112,16 @@
                   "numberOfVisits":4
                 }
           },
-
+          "procedureOrders":{
+            "orderType":"Procedure Order",
+            "type":"ordersControl",
+            "translationKey":"DASHBOARD_TITLE_PROCEDURE_ORDERS_KEY",
+            "displayOrder":20,
+            "dashboardConfig":{
+              "conceptNames":[],
+              "numberOfVisits":4
+            }
+          },
             "labResults":{
                 "translationKey":"DASHBOARD_TITLE_LAB_RESULTS_KEY",
                 "type":"labOrders",
@@ -209,7 +218,7 @@
                                 "Diabetes Intake",
                                 "Diabetes Progress",
                                 "Malaria",
-                                "History and Examination",
+                                "SNOMED H&E Form",
                                 "Vitals",
                                 "Hypertension Intake",
                                 "Second Vitals",

@@ -75,7 +75,7 @@
     "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
     "type": "config",
     "extensionParams": {
-      "formName": "History and Examination",
+      "formName": "SNOMED H&E Form",
       "default": true
     },
     "order": 1,

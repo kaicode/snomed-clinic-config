@@ -54,5 +54,85 @@
         "config": {
             "sqlPath": "/etc/bahmni_config/openmrs/apps/reports/sql/diagnosisCount.sql"
         }
+    },
+    "formBuilderReport":{
+        "name": "SNOMED Form builder form Report",
+        "type": "formBuilder",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "patientAttributes": [
+                "caste",
+                "class",
+                "education",
+                "occupation"
+            ],
+            "patientAddresses": [
+                "address3",
+                "city_village"
+            ],
+            "visitAttributes": [
+                "Visit Status"
+            ],
+            "showVisitInfo": true,
+            "showProvider": true,
+            "formNamesToFilter": [ "Test Form", "SNOMED H&E Form", "SNOMED Malaria Form", "SNOMED Asthma Form", "SNOMED COVID Form", "SNOMED Accident Intake Form"],
+            "conceptNameDisplayFormat": "shortNamePreferred",
+            "locationTagsToFilter": [],
+            "programsToFilter": [],
+            "applyDateRangeFor": "obsDate",
+            "visitTypesToFilter": []
+        }
+    },
+    "chiefComplaintReport": {
+        "name": "SNOMED Chief Complaint Report",
+        "type": "obsCount",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "ageGroupName": "All Ages",
+            "conceptNames": [
+                "SNOMED Chief Complaint (coded)"
+            ],
+            "countOnlyClosedVisits": "false",
+            "visitTypes": [
+                "IPD",
+                "OPD"
+            ]
+        }
+    },
+    "diagnosisCountMalaria": {
+        "name": "SNOMED Diagnosis Count Report for Malaria",
+        "type": "fhirTSLookupDiagnosis",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SNOMED",
+            "terminologyParentCode": "61462000",
+            "displayTerminologyCode": "false",
+            "terminologyColumnName": "SNOMED Code",
+            "displayGenderGroup": "true"
+        }
+    },
+    "diagnosisCountAsthma": {
+        "name": "SNOMED Diagnosis Count Report for Asthma",
+        "type": "fhirTSLookupDiagnosis",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SNOMED",
+            "terminologyParentCode": "195967001",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "displayGenderGroup": "false"
+        }
+    },
+    "diagnosisCountCOVID19": {
+        "name": "SNOMED Diagnosis Count Report for COVID-19",
+        "type": "fhirTSLookupDiagnosis",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SNOMED",
+            "terminologyParentCode": "840539006",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "displayGenderGroup": "true"
+        }
     }
 }
