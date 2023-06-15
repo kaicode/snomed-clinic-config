@@ -83,6 +83,30 @@
             "visitTypesToFilter": []
         }
     },
+    "covidIntakeLineList":{
+        "name": "SNOMED Covid Intake Line List",
+        "type": "formBuilder",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "patientAttributes": [
+            ],
+            "patientAddresses": [
+                "address1",
+                "address2",
+                "city_village"
+            ],
+            "visitAttributes": [
+            ],
+            "showVisitInfo": false,
+            "showProvider": false,
+            "formNamesToFilter": [ "SNOMED COVID Form" ],
+            "conceptNameDisplayFormat": "shortNamePreferred",
+            "locationTagsToFilter": [],
+            "programsToFilter": [],
+            "applyDateRangeFor": "obsDate",
+            "visitTypesToFilter": []
+        }
+    },
     "chiefComplaintReport": {
         "name": "SNOMED Chief Complaint Report",
         "type": "obsCount",
