@@ -1,0 +1,62 @@
+{
+  "formJson": {
+    "id": 2,
+    "uuid": "bdad92ed-4e60-48f0-bc5f-bbc4b7c2f07f",
+    "name": "SNOMED Covid Form",
+    "version": "1",
+    "published": true,
+    "auditInfo": {
+      "creator": {
+        "uuid": "c1c21e11-3f10-11e4-adec-0800271c1b75",
+        "display": "superman",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://qa.snomed.mybahmni.in/openmrs/ws/rest/v1/user/c1c21e11-3f10-11e4-adec-0800271c1b75",
+            "resourceAlias": "user"
+          }
+        ]
+      },
+      "dateCreated": "2023-06-13T11:50:08.000+0000",
+      "changedBy": {
+        "uuid": "c1c21e11-3f10-11e4-adec-0800271c1b75",
+        "display": "superman",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://qa.snomed.mybahmni.in/openmrs/ws/rest/v1/user/c1c21e11-3f10-11e4-adec-0800271c1b75",
+            "resourceAlias": "user"
+          }
+        ]
+      },
+      "dateChanged": "2023-06-13T11:58:13.000+0000"
+    },
+    "resources": [
+      {
+        "value": "{\"name\":\"SNOMED Covid Form\",\"id\":2,\"uuid\":\"bdad92ed-4e60-48f0-bc5f-bbc4b7c2f07f\",\"defaultLocale\":\"en\",\"controls\":[{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"HAS_COVID_BEEN_CONFIRMED?_1\",\"id\":\"1\",\"units\":\"\",\"type\":\"label\",\"value\":\"Has COVID been confirmed?\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":0},\"url\":\"http://bahmni.org/fhir/ValueSet/bahmni-valueset-covid\",\"autoComplete\":false,\"multiSelect\":false,\"dropDown\":false},\"id\":\"1\",\"concept\":{\"name\":\"Has COVID been confirmed?\",\"uuid\":\"18fd666b-0e3d-495e-8ff1-bdf63e86e531\",\"datatype\":\"Coded\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}},\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"WHEN_WAS_COVID_CONFIRMED?_2\",\"id\":\"2\",\"units\":\"\",\"type\":\"label\",\"value\":\"When was COVID confirmed?\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":1}},\"id\":\"2\",\"concept\":{\"name\":\"When was COVID confirmed?\",\"uuid\":\"1947a978-826b-4fe1-a1fd-3ed66904d8ee\",\"datatype\":\"Date\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}},\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"ANY_SYMPTOMS_EXPERIENCED?_3\",\"id\":\"3\",\"units\":\"\",\"type\":\"label\",\"value\":\"Any Symptoms experienced?\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":2},\"url\":\"http://bahmni.org/fhir/ValueSet/bahmni-valueset-symptoms\",\"autoComplete\":true,\"multiSelect\":false,\"dropDown\":false},\"id\":\"3\",\"concept\":{\"name\":\"Any Symptoms experienced?\",\"uuid\":\"fe5bcbe3-6ba3-46f2-a5d0-b5803c055489\",\"datatype\":\"Coded\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}},\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"OXYGEN_SATURATION_(SPO2)_4\",\"id\":\"4\",\"units\":\"(%)\",\"type\":\"label\",\"value\":\"Oxygen Saturation (SPO2)\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":3}},\"id\":\"4\",\"concept\":{\"name\":\"Oxygen Saturation (SPO2)\",\"uuid\":\"bf1d88c6-ffdd-491c-b4d8-45b78328701d\",\"datatype\":\"Numeric\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":true}},\"units\":\"%\",\"hiNormal\":null,\"lowNormal\":97,\"hiAbsolute\":null,\"lowAbsolute\":null},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"ANY_PRE-EXISTING_CO-MORBIDITIES?_5\",\"id\":\"5\",\"units\":\"\",\"type\":\"label\",\"value\":\"Any pre-existing co-morbidities?\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":4},\"url\":\"http://snomed.info/sct?fhir_vs=ecl/<64572001\",\"autoComplete\":true,\"multiSelect\":false,\"dropDown\":false},\"id\":\"5\",\"concept\":{\"name\":\"Any pre-existing co-morbidities?\",\"uuid\":\"1e562af8-3a59-4892-a8aa-76a3ba6b1159\",\"datatype\":\"Coded\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}},\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"IS_ADMISSION_TO_HOSPITAL_REQUIRED?_6\",\"id\":\"6\",\"units\":\"\",\"type\":\"label\",\"value\":\"Is admission to hospital required?\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":5},\"url\":\"http://bahmni.org/fhir/ValueSet/bahmni-valueset-hospitalisation\",\"autoComplete\":false,\"multiSelect\":false,\"dropDown\":false},\"id\":\"6\",\"concept\":{\"name\":\"Is admission to hospital required?\",\"uuid\":\"f382ad2a-3799-4b96-b3af-001be23a6b38\",\"datatype\":\"Coded\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}},\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"COMMENTS_7\",\"id\":\"7\",\"units\":\"\",\"type\":\"label\",\"value\":\"COMMENTS\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"column\":0,\"row\":6}},\"id\":\"7\",\"concept\":{\"name\":\"COMMENTS\",\"uuid\":\"9bb0795c-4ff0-0305-1990-000000000040\",\"datatype\":\"Text\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}},\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null}],\"events\":{\"onFormSave\":\"\",\"onFormInit\":\"\"},\"translationsUrl\":\"/openmrs/ws/rest/v1/bahmniie/form/translations\",\"referenceVersion\":0,\"referenceFormUuid\":\"bdad92ed-4e60-48f0-bc5f-bbc4b7c2f07f\"}",
+        "dataType": "org.bahmni.customdatatype.datatype.FileSystemStorageDatatype",
+        "uuid": "45814b7d-3e56-42d0-bc66-baa86d1ded54"
+      }
+    ]
+  },
+  "translations": [
+    {
+      "locale": "en",
+      "labels": {},
+      "concepts": {
+        "ANY_SYMPTOMS_EXPERIENCED?_3": "Any Symptoms experienced?",
+        "HAS_COVID_BEEN_CONFIRMED?_1": "Has COVID been confirmed?",
+        "WHEN_WAS_COVID_CONFIRMED?_2": "When was COVID confirmed?",
+        "IS_ADMISSION_TO_HOSPITAL_REQUIRED?_6": "Is admission to hospital required?",
+        "OXYGEN_SATURATION_(SPO2)_4": "Oxygen Saturation (SPO2)",
+        "COMMENTS_7": "COMMENTS",
+        "ANY_PRE-EXISTING_CO-MORBIDITIES?_5": "Any pre-existing co-morbidities?"
+      },
+      "formName": "SNOMED Covid Form",
+      "formUuid": null,
+      "version": "1",
+      "referenceVersion": null,
+      "referenceFormUuid": null
+    }
+  ]
+}
