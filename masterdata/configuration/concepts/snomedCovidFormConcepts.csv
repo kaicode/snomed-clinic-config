@@ -1,0 +1,8 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Description:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:200
+18fd666b-0e3d-495e-8ff1-bdf63e86e531,,,Has COVID been confirmed?,,,,,,Misc,Coded,,,,,,,,,,,
+1947a978-826b-4fe1-a1fd-3ed66904d8ee,,,When was COVID confirmed?,,,,,,Misc,Date,,,,,,,,,,,
+fe5bcbe3-6ba3-46f2-a5d0-b5803c055489,,,Any Symptoms experienced?,,,,,,Misc,Coded,,,,,,,,,,,
+bf1d88c6-ffdd-491c-b4d8-45b78328701d,,,Oxygen Saturation (SPO2),,,,,,Misc,Numeric,,,,,%,97,,,,,
+"	1e562af8-3a59-4892-a8aa-76a3ba6b1159",,,Any pre-existing co-morbidities?,,,,,,Misc,Coded,,,,,,,,,,,
+f382ad2a-3799-4b96-b3af-001be23a6b38,,,Is admission to hospital required?,,,,,,Misc,Coded,,,,,,,,,,,
+9bb0795c-4ff0-0305-1990-000000000040,,,COMMENTS,,,,,,Misc,Text,,,,,,,,,,,
