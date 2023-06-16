@@ -228,7 +228,8 @@
                                 "Under Treatment and Fitness Certificate",
                                 "Referral letter",
                                 "Admission Letter",
-                                "Immunization Incident Record"
+                                "Immunization Incident Record",
+                                "SNOMED COVID Form"
 
                             ],
                 "translationKey": "DASHBOARD_TITLE_FORMS_DISPLAY_CONTROL_KEY"
