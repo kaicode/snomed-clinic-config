@@ -229,7 +229,7 @@
                                 "Referral letter",
                                 "Admission Letter",
                                 "Immunization Incident Record",
-                                "SNOMED Covid Form"
+                                "SNOMED COVID Form"
 
                             ],
                 "translationKey": "DASHBOARD_TITLE_FORMS_DISPLAY_CONTROL_KEY"
