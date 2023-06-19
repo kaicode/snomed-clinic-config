@@ -158,5 +158,38 @@
             "terminologyColumnName": "SNOMED Code",
             "displayGenderGroup": "true"
         }
+    },
+    "diagnosisLineReportMalaria": {
+        "name": "SNOMED Diagnosis Line Report for Malaria",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SNOMED",
+            "terminologyParentCode": "61462000",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code"
+        }
+    },
+    "diagnosisLineReportAsthma": {
+        "name": "SNOMED Diagnosis Line Report for Asthma",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SNOMED",
+            "terminologyParentCode": "195967001",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code"
+        }
+    },
+    "diagnosisLineReportCOVID19": {
+        "name": "SNOMED Diagnosis Line Report for COVID-19",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SNOMED",
+            "terminologyParentCode": "840539006",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code"
+        }
     }
 }
