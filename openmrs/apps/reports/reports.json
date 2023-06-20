@@ -128,7 +128,7 @@
         "type": "fhirTSLookupDiagnosis",
         "requiredPrivilege": "app:reports",
         "config": {
-            "tsConceptSource": "SNOMED",
+            "tsConceptSource": "SCT",
             "terminologyParentCode": "61462000",
             "displayTerminologyCode": "false",
             "terminologyColumnName": "SNOMED Code",
@@ -140,7 +140,7 @@
         "type": "fhirTSLookupDiagnosis",
         "requiredPrivilege": "app:reports",
         "config": {
-            "tsConceptSource": "SNOMED",
+            "tsConceptSource": "SCT",
             "terminologyParentCode": "195967001",
             "displayTerminologyCode": "true",
             "terminologyColumnName": "SNOMED Code",
@@ -152,7 +152,7 @@
         "type": "fhirTSLookupDiagnosis",
         "requiredPrivilege": "app:reports",
         "config": {
-            "tsConceptSource": "SNOMED",
+            "tsConceptSource": "SCT",
             "terminologyParentCode": "840539006",
             "displayTerminologyCode": "true",
             "terminologyColumnName": "SNOMED Code",
@@ -164,7 +164,7 @@
         "type": "fhirTSLookupDiagnosisLine",
         "requiredPrivilege": "app:reports",
         "config": {
-            "tsConceptSource": "SNOMED",
+            "tsConceptSource": "SCT",
             "terminologyParentCode": "61462000",
             "displayTerminologyCode": "true",
             "terminologyColumnName": "SNOMED Code"
@@ -175,7 +175,7 @@
         "type": "fhirTSLookupDiagnosisLine",
         "requiredPrivilege": "app:reports",
         "config": {
-            "tsConceptSource": "SNOMED",
+            "tsConceptSource": "SCT",
             "terminologyParentCode": "195967001",
             "displayTerminologyCode": "true",
             "terminologyColumnName": "SNOMED Code"
@@ -186,7 +186,7 @@
         "type": "fhirTSLookupDiagnosisLine",
         "requiredPrivilege": "app:reports",
         "config": {
-            "tsConceptSource": "SNOMED",
+            "tsConceptSource": "SCT",
             "terminologyParentCode": "840539006",
             "displayTerminologyCode": "true",
             "terminologyColumnName": "SNOMED Code"
