@@ -32,4 +32,4 @@ jobs:
           file: package/docker/Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: bahmni/clinic-config:snomed-${{ github.run_number }},bahmni/clinic-config:snomed-latest
+          tags: bahmni/clinic-config:snomed-1.0.0,bahmni/clinic-config:snomed-latest
