@@ -128,7 +128,7 @@
         "type": "fhirTSLookupDiagnosis",
         "requiredPrivilege": "app:reports",
         "config": {
-            "tsConceptSource": "SNOMED",
+            "tsConceptSource": "SNOMED-CT",
             "terminologyParentCode": "61462000",
             "displayTerminologyCode": "false",
             "terminologyColumnName": "SNOMED Code",
@@ -140,7 +140,7 @@
         "type": "fhirTSLookupDiagnosis",
         "requiredPrivilege": "app:reports",
         "config": {
-            "tsConceptSource": "SNOMED",
+            "tsConceptSource": "SNOMED-CT",
             "terminologyParentCode": "195967001",
             "displayTerminologyCode": "true",
             "terminologyColumnName": "SNOMED Code",
@@ -152,7 +152,7 @@
         "type": "fhirTSLookupDiagnosis",
         "requiredPrivilege": "app:reports",
         "config": {
-            "tsConceptSource": "SNOMED",
+            "tsConceptSource": "SNOMED-CT",
             "terminologyParentCode": "840539006",
             "displayTerminologyCode": "true",
             "terminologyColumnName": "SNOMED Code",
