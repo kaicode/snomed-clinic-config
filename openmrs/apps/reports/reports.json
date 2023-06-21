@@ -167,7 +167,11 @@
             "tsConceptSource": "SCT",
             "terminologyParentCode": "61462000",
             "displayTerminologyCode": "true",
-            "terminologyColumnName": "SNOMED Code"
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+            ],
+            "patientAddresses": [
+            ]
         }
     },
     "diagnosisLineReportAsthma": {
@@ -178,7 +182,14 @@
             "tsConceptSource": "SCT",
             "terminologyParentCode": "195967001",
             "displayTerminologyCode": "true",
-            "terminologyColumnName": "SNOMED Code"
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+                "education",
+                "class"
+            ],
+            "patientAddresses": [
+                "city_village"
+            ]
         }
     },
     "diagnosisLineReportCOVID19": {
@@ -189,7 +200,16 @@
             "tsConceptSource": "SCT",
             "terminologyParentCode": "840539006",
             "displayTerminologyCode": "true",
-            "terminologyColumnName": "SNOMED Code"
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+                "education",
+                "class",
+                "occupation"
+            ],
+            "patientAddresses": [
+                "city_village",
+                "address1"
+            ]
         }
     }
 }
