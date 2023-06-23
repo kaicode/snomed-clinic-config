@@ -125,7 +125,7 @@
     },
     "diagnosisCountMalaria": {
         "name": "SNOMED Diagnosis Count Report for Malaria",
-        "type": "fhirTSLookupDiagnosis",
+        "type": "fhirTSLookupDiagnosisCount",
         "requiredPrivilege": "app:reports",
         "config": {
             "tsConceptSource": "SCT",
@@ -137,7 +137,7 @@
     },
     "diagnosisCountAsthma": {
         "name": "SNOMED Diagnosis Count Report for Asthma",
-        "type": "fhirTSLookupDiagnosis",
+        "type": "fhirTSLookupDiagnosisCount",
         "requiredPrivilege": "app:reports",
         "config": {
             "tsConceptSource": "SCT",
@@ -149,7 +149,7 @@
     },
     "diagnosisCountCOVID19": {
         "name": "SNOMED Diagnosis Count Report for COVID-19",
-        "type": "fhirTSLookupDiagnosis",
+        "type": "fhirTSLookupDiagnosisCount",
         "requiredPrivilege": "app:reports",
         "config": {
             "tsConceptSource": "SCT",
