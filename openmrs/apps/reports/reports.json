@@ -125,10 +125,10 @@
     },
     "diagnosisCountMalaria": {
         "name": "SNOMED Diagnosis Count Report for Malaria",
-        "type": "fhirTSLookupDiagnosis",
+        "type": "fhirTSLookupDiagnosisCount",
         "requiredPrivilege": "app:reports",
         "config": {
-            "tsConceptSource": "SNOMED-CT",
+            "tsConceptSource": "SCT",
             "terminologyParentCode": "61462000",
             "displayTerminologyCode": "false",
             "terminologyColumnName": "SNOMED Code",
@@ -137,10 +137,10 @@
     },
     "diagnosisCountAsthma": {
         "name": "SNOMED Diagnosis Count Report for Asthma",
-        "type": "fhirTSLookupDiagnosis",
+        "type": "fhirTSLookupDiagnosisCount",
         "requiredPrivilege": "app:reports",
         "config": {
-            "tsConceptSource": "SNOMED-CT",
+            "tsConceptSource": "SCT",
             "terminologyParentCode": "195967001",
             "displayTerminologyCode": "true",
             "terminologyColumnName": "SNOMED Code",
@@ -149,14 +149,67 @@
     },
     "diagnosisCountCOVID19": {
         "name": "SNOMED Diagnosis Count Report for COVID-19",
-        "type": "fhirTSLookupDiagnosis",
+        "type": "fhirTSLookupDiagnosisCount",
         "requiredPrivilege": "app:reports",
         "config": {
-            "tsConceptSource": "SNOMED-CT",
+            "tsConceptSource": "SCT",
             "terminologyParentCode": "840539006",
             "displayTerminologyCode": "true",
             "terminologyColumnName": "SNOMED Code",
             "displayGenderGroup": "true"
+        }
+    },
+    "diagnosisLineReportMalaria": {
+        "name": "SNOMED Diagnosis Line Report for Malaria",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SCT",
+            "terminologyParentCode": "61462000",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+            ],
+            "patientAddresses": [
+            ]
+        }
+    },
+    "diagnosisLineReportAsthma": {
+        "name": "SNOMED Diagnosis Line Report for Asthma",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SCT",
+            "terminologyParentCode": "195967001",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+                "education",
+                "class"
+            ],
+            "patientAddresses": [
+                "city_village"
+            ]
+        }
+    },
+    "diagnosisLineReportCOVID19": {
+        "name": "SNOMED Diagnosis Line Report for COVID-19",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SCT",
+            "terminologyParentCode": "840539006",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+                "education",
+                "class",
+                "occupation"
+            ],
+            "patientAddresses": [
+                "city_village",
+                "address1"
+            ]
         }
     }
 }
