@@ -211,5 +211,59 @@
                 "address1"
             ]
         }
+    },
+    "diagnosisLineReportBronchitis": {
+        "name": "SNOMED Diagnosis Line Report(ICD) for Bronchitis",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SCT",
+            "conceptNameDisplayFormat": "shortNamePreferred",
+            "terminologyParentCode": "32398004",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+            ],
+            "patientAddresses": [
+            ],
+            "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
+        }
+    },
+    "diagnosisLineReportPeritonitis": {
+        "name": "SNOMED Diagnosis Line Report(ICD) for Peritonitis",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SCT",
+            "conceptNameDisplayFormat": "shortNamePreferred",
+            "terminologyParentCode": "48661000",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+                "education",
+                "class"
+            ],
+            "patientAddresses": [
+                "city_village"
+            ],
+            "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
+        }
+    },
+    "diagnosisLineReportPneumonia": {
+        "name": "SNOMED Diagnosis Line Report(ICD) for Pneumonia",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SCT",
+            "conceptNameDisplayFormat": "shortNamePreferred",
+            "terminologyParentCode": "421671002",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+            ],
+            "patientAddresses": [
+            ],
+            "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
+        }
     }
 }
