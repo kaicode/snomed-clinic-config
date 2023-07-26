@@ -212,7 +212,7 @@
             ]
         }
     },
-    "diagnosisLineReportBronchitis": {
+    "diagnosisICDLineReportBronchitis": {
         "name": "SNOMED Diagnosis Line Report(ICD) for Bronchitis",
         "type": "fhirTSLookupDiagnosisLine",
         "requiredPrivilege": "app:reports",
@@ -229,7 +229,7 @@
             "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
         }
     },
-    "diagnosisLineReportPeritonitis": {
+    "diagnosisICDLineReportPeritonitis": {
         "name": "SNOMED Diagnosis Line Report(ICD) for Peritonitis",
         "type": "fhirTSLookupDiagnosisLine",
         "requiredPrivilege": "app:reports",
@@ -249,7 +249,7 @@
             "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
         }
     },
-    "diagnosisLineReportPneumonia": {
+    "diagnosisICDLineReportPneumonia": {
         "name": "SNOMED Diagnosis Line Report(ICD) for Pneumonia",
         "type": "fhirTSLookupDiagnosisLine",
         "requiredPrivilege": "app:reports",
@@ -265,5 +265,55 @@
             ],
             "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
         }
+    },
+    "diagnosisICDLineReportExcessiveGrowthRate": {
+        "name": "SNOMED Diagnosis Line Report(ICD) for Excessive Growth Rate",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SCT",
+            "conceptNameDisplayFormat": "shortNamePreferred",
+            "terminologyParentCode": "440311000124109",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+            ],
+            "patientAddresses": [
+            ],
+            "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
+        }
+    },
+    "diagnosisICDLineReportDietaryFinding": {
+        "name": "SNOMED Diagnosis Line Report(ICD) for Dietary Finding",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SCT",
+            "conceptNameDisplayFormat": "shortNamePreferred",
+            "terminologyParentCode": "41829006",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+            ],
+            "patientAddresses": [
+            ],
+            "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
+        }
+    },
+    "diagnosisICDLineReportCOVID19": {
+        "name": "SNOMED Diagnosis Line Report(ICD) for COVID-19",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SCT",
+            "conceptNameDisplayFormat": "shortNamePreferred",
+            "terminologyParentCode": "840539006",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+            ],
+            "patientAddresses": [
+            ],
+            "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
+        }
     }
-}
