@@ -1,0 +1,8 @@
+<config>
+    <globalProperties>
+        <globalProperty>
+            <property>fhir2.personContactPointAttributeTypeUuid</property>
+            <value>056c601c-734e-4e41-99b3-e0a586bd6d04</value>
+        </globalProperty>
+    </globalProperties>
+</config>
